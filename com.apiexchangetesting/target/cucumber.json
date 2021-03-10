@@ -1,0 +1,325 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-10T06:28:06.743Z",
+        "line": 4,
+        "name": "Foreign Exchange Rate Type 1",
+        "description": "",
+        "id": "exchange-rates-api-testing;foreign-exchange-rate-type-1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2986600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Rates API for Latest foreign exchange rates",
+            "match": {
+              "location": "stepdef.Step_definition.rates_API_for_Latest_foreign_exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3030631800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "api is available",
+            "match": {
+              "location": "stepdef.Step_definition.api_is_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1994100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "asserting the success of response",
+            "match": {
+              "location": "stepdef.Step_definition.asserting_the_success_of_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SC1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T06:28:09.923Z",
+        "line": 10,
+        "name": "Foreign Exchange Rate Type 2",
+        "description": "",
+        "id": "exchange-rates-api-testing;foreign-exchange-rate-type-2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Rates API for Latest foreign exchange rates",
+            "match": {
+              "location": "stepdef.Step_definition.rates_API_for_Latest_foreign_exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 624077200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "api is available",
+            "match": {
+              "location": "stepdef.Step_definition.api_is_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat stepdef.Step_definition.asserting_the_failure_of_response(Step_definition.java:46)\r\n\tat ✽.asserting the failure of response(file:///C:/Users/DELL%20PC/eclipse-workspace/com.apiexchangetesting/src/test/resources/featurefiles/RateExchange.feature:13)\r\n",
+              "duration": 8882800,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "asserting the failure of response",
+            "match": {
+              "location": "stepdef.Step_definition.asserting_the_failure_of_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SC2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T06:28:10.584Z",
+        "line": 16,
+        "name": "Foreign Exchange Rate Type 3",
+        "description": "",
+        "id": "exchange-rates-api-testing;foreign-exchange-rate-type-3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 944500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Rates API for Latest foreign exchange rates",
+            "match": {
+              "location": "stepdef.Step_definition.rates_API_for_Latest_foreign_exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 650805000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "An incorrect api Url is provided",
+            "match": {
+              "location": "stepdef.Step_definition.an_incorrect_api_Url_is_provided()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 261300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Assert the correct response supplied by call",
+            "match": {
+              "location": "stepdef.Step_definition.assert_the_correct_response_supplied_by_call()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SC3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T06:28:11.245Z",
+        "line": 22,
+        "name": "Foreign Exchange Rate for Specific date type 1",
+        "description": "",
+        "id": "exchange-rates-api-testing;foreign-exchange-rate-for-specific-date-type-1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Rates API for Specific date foreign exchange rates",
+            "match": {
+              "location": "stepdef.Step_definition.rates_API_for_Specific_date_foreign_exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 529723400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Api Url is available for specific date",
+            "match": {
+              "location": "stepdef.Step_definition.api_Url_is_available_for_specific_date()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1026900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Assert the success status for specific date url",
+            "match": {
+              "location": "stepdef.Step_definition.assert_the_success_status_for_specific_date_url()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SC4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T06:28:11.780Z",
+        "line": 28,
+        "name": "Foreign Exchange Rate for Specific date type 2",
+        "description": "",
+        "id": "exchange-rates-api-testing;foreign-exchange-rate-for-specific-date-type-2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Rates API for Specific date foreign exchange rates",
+            "match": {
+              "location": "stepdef.Step_definition.rates_API_for_Specific_date_foreign_exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 489284900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Api Url is available for specific date",
+            "match": {
+              "location": "stepdef.Step_definition.api_Url_is_available_for_specific_date()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat stepdef.Step_definition.assert_the_failure_status_for_specific_date_url(Step_definition.java:99)\r\n\tat ✽.Assert the failure status for specific date url(file:///C:/Users/DELL%20PC/eclipse-workspace/com.apiexchangetesting/src/test/resources/featurefiles/RateExchange.feature:31)\r\n",
+              "duration": 2353300,
+              "status": "failed"
+            },
+            "line": 31,
+            "name": "Assert the failure status for specific date url",
+            "match": {
+              "location": "stepdef.Step_definition.assert_the_failure_status_for_specific_date_url()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SC5"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T06:28:12.279Z",
+        "line": 34,
+        "name": "Foreign Exchange Rate for Specific date type 3",
+        "description": "",
+        "id": "exchange-rates-api-testing;foreign-exchange-rate-for-specific-date-type-3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Rates API for Specific date foreign exchange rates",
+            "match": {
+              "location": "stepdef.Step_definition.rates_API_for_Specific_date_foreign_exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 545458700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "future date provided for specific date",
+            "match": {
+              "location": "stepdef.Step_definition.future_date_provided_for_specific_date()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1985900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Assert the correct response status for specific date url",
+            "match": {
+              "location": "stepdef.Step_definition.assert_the_correct_response_status_for_specific_date_url()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SC6"
+          }
+        ]
+      }
+    ],
+    "name": "Exchange Rates API Testing",
+    "description": "",
+    "id": "exchange-rates-api-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featurefiles/RateExchange.feature",
+    "tags": []
+  }
+]
